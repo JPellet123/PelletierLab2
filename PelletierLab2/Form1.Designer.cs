@@ -44,8 +44,8 @@
             this.btnDat = new System.Windows.Forms.Button();
             this.btnPic = new System.Windows.Forms.Button();
             this.lblRel = new System.Windows.Forms.Label();
-            this.lblDat = new System.Windows.Forms.Label();
             this.picRel = new System.Windows.Forms.PictureBox();
+            this.lblDat = new System.Windows.Forms.Label();
             this.gbxMult.SuspendLayout();
             this.gbxInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picRel)).BeginInit();
@@ -205,15 +205,6 @@
             this.lblRel.TabIndex = 0;
             this.lblRel.Text = "Relic";
             // 
-            // lblDat
-            // 
-            this.lblDat.Location = new System.Drawing.Point(24, 39);
-            this.lblDat.Name = "lblDat";
-            this.lblDat.Size = new System.Drawing.Size(378, 227);
-            this.lblDat.TabIndex = 6;
-            this.lblDat.Text = "label2";
-            this.lblDat.Visible = false;
-            // 
             // picRel
             // 
             this.picRel.Image = ((System.Drawing.Image)(resources.GetObject("picRel.Image")));
@@ -225,6 +216,15 @@
             this.picRel.TabStop = false;
             this.picRel.Visible = false;
             this.picRel.Click += new System.EventHandler(this.picRel_Click);
+            // 
+            // lblDat
+            // 
+            this.lblDat.Location = new System.Drawing.Point(24, 39);
+            this.lblDat.Name = "lblDat";
+            this.lblDat.Size = new System.Drawing.Size(378, 227);
+            this.lblDat.TabIndex = 6;
+            this.lblDat.Text = "label2";
+            this.lblDat.Visible = false;
             // 
             // Form1
             // 
